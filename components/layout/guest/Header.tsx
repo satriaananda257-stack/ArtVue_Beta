@@ -19,14 +19,13 @@ const Header = () => {
         <div className="flex items-center md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
           <button
             type="button"
-            className="flex text-sm bg-neutral-primary rounded-full md:me-0 focus:ring-4 focus:ring-neutral-tertiary"
+            className="flex text-sm bg-neutral-primary rounded-full "
             id="user-menu-button"
             aria-expanded="false"
             data-dropdown-toggle="user-dropdown"
             data-dropdown-placement="bottom"
           >
-            <span className="sr-only">Open user menu</span>
-            <img className="w-8 h-8 rounded-full" src="../images/image.png" alt="user photo" />
+            <img className="w-8 h-8 rounded-full" src="/images/image.png"/>
           </button>
           {/* Dropdown menu */}
           <div className="z-50 hidden bg-neutral-primary-medium border border-default-medium rounded-base shadow-lg w-44" id="user-dropdown">
